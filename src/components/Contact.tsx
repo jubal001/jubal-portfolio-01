@@ -18,7 +18,9 @@ export function Contact() {
         <div className="glass-card p-7">
           <div className="icon-tile"><Mail size={21} /></div>
           <h3 className="mt-6 font-display text-2xl font-semibold text-white">Connect directly</h3>
-          <p className="mt-3 text-sm leading-6 text-slate-500">Professional links can be configured in <code className="text-sky-300">src/data/portfolio.ts</code>.</p>
+          <p className="mt-3 text-sm leading-6 text-slate-500">
+  Connect with me through my professional channels and let's turn ideas into impact.
+</p>
           <div className="mt-7 space-y-3">
             {portfolio.email ? <a href={`mailto:${portfolio.email}`} className="contact-link"><Mail size={17} /> {portfolio.email}</a> : null}
             <a href={portfolio.github} target="_blank" rel="noreferrer" className="contact-link"><Github size={17} /> GitHub / jubal001</a>
