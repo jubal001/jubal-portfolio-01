@@ -1,4 +1,3 @@
-import { Award } from "lucide-react";
 import { motion } from "framer-motion";
 import { GraduationCap, Award } from "lucide-react";
 import { portfolio } from "../data/portfolio";

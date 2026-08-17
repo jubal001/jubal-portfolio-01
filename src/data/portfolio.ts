@@ -1,12 +1,12 @@
 export const portfolio = {
   name: "Sambo Jubal KpeiNom",
   shortName: "Jubal",
-  profileImage: `${import.meta.env.BASE_URL}profile.jpg`,
+  profileImage: "profile.jpg",
   email: "jubalsambo7@gmail.com",
   location: "Nigeria",
   github: "https://github.com/jubal001",
   linkedin: "https://www.linkedin.com/in/jubalsambo",
-  cv: `${import.meta.env.BASE_URL}Sambo-Jubal-KpeiNom-CV.pdf`,
+  cv: "Sambo-Jubal-KpeiNom-CV.pdf",
   roles: ["Data Analyst", "BI Analyst", "AI/ML Specialist", "Data Scientist"],
   headline: "Turning Data Into Intelligence, Insights Into Decisions.",
   intro:
@@ -135,7 +135,7 @@ export const portfolio = {
     year: "2025",
     description:
       "Completed the HP LIFE online course covering customer centricity, business strategy, promoters and detractors, Net Promoter Score, business outcomes and customer-focused service.",
-    image: `${import.meta.env.BASE_URL}certificates/hp-life-customer-experience.jpg`,
+    image: "certificates/hp-life-customer-experience.jpg",
     credentialUrl: "",
   },
   ],
